@@ -1,0 +1,31 @@
+cff-version: 1.2.0
+message: "If you use this repository, please cite the Linear Lens publication."
+title: "Linear Lens"
+type: software
+authors:
+  - family-names: Danish
+    given-names: Muhammad Umair
+  - family-names: Aziz
+    given-names: Memoona
+  - family-names: Rehman
+    given-names: Umair
+  - family-names: Grolinger
+    given-names: Katarina
+version: 0.1.0
+repository-code: "https://github.com/udanish50/LinearLens"
+preferred-citation:
+  type: article
+  title: "Linear Lens: A human-centered, non-interventional mechanistic approach to explainable AI"
+  authors:
+    - family-names: Danish
+      given-names: Muhammad Umair
+    - family-names: Aziz
+      given-names: Memoona
+    - family-names: Rehman
+      given-names: Umair
+    - family-names: Grolinger
+      given-names: Katarina
+  journal: "Machine Learning with Applications"
+  volume: 24
+  year: 2026
+  doi: "10.1016/j.mlwa.2026.100897"

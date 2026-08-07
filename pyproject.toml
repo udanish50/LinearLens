@@ -1,0 +1,51 @@
+[build-system]
+requires = ["setuptools>=69", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "linear-lens-xai"
+version = "0.1.0"
+description = "Non-interventional mechanistic interpretability utilities inspired by Linear Lens."
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [
+  {name = "Muhammad Umair Danish"},
+  {name = "Memoona Aziz"},
+  {name = "Umair Rehman"},
+  {name = "Katarina Grolinger"},
+]
+keywords = ["explainable-ai", "mechanistic-interpretability", "xai", "pytorch", "neural-networks"]
+dependencies = [
+  "numpy>=1.26",
+  "torch>=2.2",
+]
+
+[project.optional-dependencies]
+dev = [
+  "pytest>=8.0",
+  "pytest-cov>=5.0",
+  "ruff>=0.9",
+]
+
+[project.scripts]
+linear-lens = "linearlens.cli:main"
+
+[project.urls]
+Homepage = "https://github.com/udanish50/LinearLens"
+Repository = "https://github.com/udanish50/LinearLens"
+Publication = "https://doi.org/10.1016/j.mlwa.2026.100897"
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.ruff]
+line-length = 100
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "SIM"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-q"

@@ -1,0 +1,11 @@
+Linear Lens code release notice
+
+This repository is an independent open-source implementation based on the method described in:
+
+Muhammad Umair Danish, Memoona Aziz, Umair Rehman, Katarina Grolinger,
+"Linear Lens: A human-centered, non-interventional mechanistic approach to explainable AI",
+Machine Learning with Applications 24 (2026) 100897.
+DOI: 10.1016/j.mlwa.2026.100897
+
+The journal article and its publisher-formatted PDF are separate works and are not distributed here.
+The confidential datasets and participant-level study data reported by the article are not included.

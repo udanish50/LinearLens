@@ -1,0 +1,61 @@
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+!.env.example
+
+# Private / research data
+*.csv
+*.tsv
+*.xlsx
+*.xls
+*.parquet
+*.feather
+*.h5
+*.hdf5
+*.npz
+*.npy
+*.mat
+*.sav
+*.dta
+*.sqlite
+*.db
+*.jsonl
+*.pkl
+*.pickle
+
+# Models / checkpoints
+*.pt
+*.pth
+*.ckpt
+*.onnx
+*.joblib
+
+# Human-study exports
+survey/
+participants/
+responses/
+qualtrics/
+prolific/
+
+# Research source documents / publisher PDFs
+*.pdf
+
+# Experiment outputs
+runs/
+outputs/
+results/
+artifacts/
+checkpoints/
