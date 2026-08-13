@@ -141,3 +141,19 @@ Please cite the publication if this implementation supports your research. See [
 ## License
 
 The code in this repository is released under the MIT License. The associated journal article is a separate publication with its own publisher license; the article PDF is intentionally not redistributed in this repository.
+
+<!-- LINEAR-LENS-PUBLIC-EVIDENCE:START -->
+## Public evidence lab
+
+Linear Lens now ships with a browser-verifiable public evidence suite in `benchmarks/public_suite/`: **45 datasets**, **180 trained-model analyses**, **9,720 neuron records**, **36 controlled role-recovery scenarios**, and fixed-model bootstrap checks on every public dataset. Dataset/model artifacts are SHA-256 indexed so the companion website can fetch the GitHub files and recompute dense-network Linear Lens results in the visitor's browser.
+
+The original peer-reviewed study evaluated ten real-world energy datasets; the paper reports those data as confidential, so they are not redistributed here. The public suite is additional software verification, not a replacement for the published experiment.
+
+See [`docs/public_evidence.md`](docs/public_evidence.md) and run:
+
+```bash
+python benchmarks/public_suite/verify_public_suite.py
+```
+
+For the website's **Analyze your own model** workflow, supported dense `nn.Sequential` models can be exported with `linearlens.web.export_dense_model`. Broader PyTorch architectures should continue to use the main Linear Lens adapters and analysis API.
+<!-- LINEAR-LENS-PUBLIC-EVIDENCE:END -->

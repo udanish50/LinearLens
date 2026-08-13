@@ -50,7 +50,12 @@ def normalize_influence(influence: ArrayLike, epsilon: float = 1e-12) -> np.ndar
     if np.any(mu < 0) or not np.all(np.isfinite(mu)):
         raise ValueError("influence must be finite and non-negative")
     denom = mu.sum(axis=1, keepdims=True)
-    out = np.divide(mu, np.maximum(denom, epsilon), where=np.ones_like(mu, dtype=bool))
+    out = np.divide(
+        mu,
+        np.maximum(denom, epsilon),
+        out=np.zeros_like(mu),
+        where=np.ones_like(mu, dtype=bool),
+    )
     zero_rows = denom[:, 0] <= epsilon
     if np.any(zero_rows):
         out[zero_rows] = 1.0 / mu.shape[1]
