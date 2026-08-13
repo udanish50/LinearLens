@@ -1,0 +1,512 @@
+{
+  "schema_version": 1,
+  "generated_on": "2026-08-13",
+  "method": "Linear Lens",
+  "files": [
+    {
+      "path": "benchmarks/public_suite/README.md",
+      "sha256": "bb48dc46817181aa7ec5c38ef351d294e68439ddc4b5879454d650a50a79e7b8",
+      "bytes": 2039
+    },
+    {
+      "path": "benchmarks/public_suite/build_validation_suites.py",
+      "sha256": "4781f5755e45a189b767d02d07091ad4b43e74d46ba86f8e1b4aa43bd713c706",
+      "bytes": 8091
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_balanced_easy.csv",
+      "sha256": "43ea6926fbddf1a081af034d60bdd729c2564b167761c3103bb7877fb3879e91",
+      "bytes": 65873
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_balanced_overlap.csv",
+      "sha256": "4faff98c192424630bb0c028f987824af13b388edd8d409693754cee85a24b50",
+      "bytes": 66758
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_breast_cancer.csv",
+      "sha256": "f435414e69ed4f98e05b02a9aa71ad6fa2d3a7786a3eaca692bd1e2b6888b1ea",
+      "bytes": 97660
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_circles.csv",
+      "sha256": "2dda757c1caa6abd7f64448d84b972d1aceb9990d4460b90d7faf8d596dc0a9c",
+      "bytes": 12128
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_clusters_1.csv",
+      "sha256": "1aef5850c08ef25b28465a7f77400c54c5700e98aeb15027b2c3ea31abda1d8c",
+      "bytes": 66519
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_clusters_3.csv",
+      "sha256": "172dd4383840f699327cdbafa7d63267c5658e50343e9bf708970b4615b423dc",
+      "bytes": 66213
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_digits.csv",
+      "sha256": "43a3e1fb7155c17de1b92cbee1389ea1a7a9ac088f15f90b605eafabedc93ce7",
+      "bytes": 74303
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_heavy_tail.csv",
+      "sha256": "ad9ef71d9da100ba6f1cdfb3919bf4bf20d125893530e301c6dbf1b963d37c59",
+      "bytes": 66768
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_heterogeneous_scale.csv",
+      "sha256": "3794eebbc1da8defe1188f5d4b71cef716eb7931053240c914aa7c28b0cb3258",
+      "bytes": 67536
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_imbalanced_90_10.csv",
+      "sha256": "8157368e075cddd49904485450799d51cc58aea74e3309eb4f37b0caf7b845e4",
+      "bytes": 66424
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_imbalanced_98_2.csv",
+      "sha256": "e1dc086d34940ade136182fdc2d4e5bbbabc8cc69f6423824906175ae621ea71",
+      "bytes": 65973
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_informative_dense.csv",
+      "sha256": "c6aabe5702d656f5eab1638feb8f237ea6603710a244d7fd6f9b3e31f1df36fb",
+      "bytes": 65383
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_informative_sparse.csv",
+      "sha256": "e38a8129f7c75f71f4ba8a7fab670905cd02041fe989e15910f5e3939781d036",
+      "bytes": 66938
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_iris.csv",
+      "sha256": "1e52d3d96ba49c50fe132731766e8b9b3d456d7b44163a4d62d2a256e19005e5",
+      "bytes": 2627
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_label_noise_10.csv",
+      "sha256": "44036ffd9e89e2196f11022a21409a3cd072bbf84698eb96a55754ffff1d4499",
+      "bytes": 66097
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_label_noise_20.csv",
+      "sha256": "672c598bdf249ef56b1b6ed6388097a70d8f347561d5ab914f1090ae295e1c90",
+      "bytes": 66157
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_lognormal.csv",
+      "sha256": "3885c084003f964cd1fada87ea4eeb4fac77361542eac8e379aa81637e2bdf43",
+      "bytes": 63394
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_missing10.csv",
+      "sha256": "7a7f76c943bb31900b40ef6315e27a8ef5d5c7981ae2d3fa163fdc1ba34faafa",
+      "bytes": 60059
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_moons.csv",
+      "sha256": "55baf1cdd1a92c078b347a2dc03315a10512c024c55945b3f5a7c7e66db68812",
+      "bytes": 11885
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_outlier_contaminated.csv",
+      "sha256": "38a577ba775ffe3290171d58d64cc3fde793287ff1cf22e9a4d7b72d7165d1c9",
+      "bytes": 67192
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_redundant_high.csv",
+      "sha256": "3b6fb31210aa6741b982e079d5c8360cf0a333a2ebb093949cb344180dbe14fb",
+      "bytes": 66009
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_wine.csv",
+      "sha256": "47946bdb6b5017961c6e2b5daa8a74b0d98779c1c66f21645d1d737eded7e8cb",
+      "bytes": 11303
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_xor.csv",
+      "sha256": "2960eb5c81b60911e45bccaa85869c8df959c4d76ef4a0b73dee3f0629453c96",
+      "bytes": 45118
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/classification_zero_inflated.csv",
+      "sha256": "244e188b1e923909b2e1849269bc7338abbeba68f0a22168f4f753314ef8e6ab",
+      "bytes": 31173
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_dense_10.csv",
+      "sha256": "0875e16e7dea48c95e3d831e7a8d921534100de95ba69200231ea7ca92da154d",
+      "bytes": 71651
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_diabetes.csv",
+      "sha256": "c4a9350c40bbd585e23bec46f317f2eef99d434f4138f7ac6450c4eb01ef1744",
+      "bytes": 66146
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_few_features.csv",
+      "sha256": "3ff9067515f9692a2f888f8f3f57ed142c7e5cbd516dead896821889b146cb63",
+      "bytes": 32863
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_heavy_tail.csv",
+      "sha256": "47208e660d1ad7e15622616c9374c0bbc2c436c4b687dd4f50864e34768e52e5",
+      "bytes": 71201
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_heterogeneous_scale.csv",
+      "sha256": "f16e259660739869bab35aff6f37ff60cd710e6048237161f18661d097d7b2c3",
+      "bytes": 72014
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_heteroscedastic_noise.csv",
+      "sha256": "5dcd3dbec0dd8a31e2688cad73022a7a46c6bd7cefabad863af7d91533c9bb05",
+      "bytes": 71714
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_high_noise.csv",
+      "sha256": "d83416f46c2ecd1a5277c2aacb0a3d6311936f8c223e4d038078ea575fb12455",
+      "bytes": 71622
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_interaction.csv",
+      "sha256": "837ea24a537fa4b1edcc4b67867a24fd5f76587b3aad5c04d58f94b5c4001d1c",
+      "bytes": 71723
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_linear_easy.csv",
+      "sha256": "1c15785d9f36b3bebb3ad3a4c4ae30e9cb63c75a9f53268d59e657d249b0ee39",
+      "bytes": 71521
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_linear_noisy.csv",
+      "sha256": "6c88e1c2500f8d714b9e4280ee4167f3a28535a98f023cf13b652b56a25843a5",
+      "bytes": 71455
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_linnerud.csv",
+      "sha256": "122a72be5c02552c5dec6fc07131f816f003d6abfd789decee2c06dc2f41326b",
+      "bytes": 299
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_lognormal.csv",
+      "sha256": "746b194e2044fbd196e5ce4ea63bd47b5b0cbe6f39facd8b8aba09bb33578705",
+      "bytes": 67939
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_low_noise.csv",
+      "sha256": "826ecb349c7cd17d1f92d9a45b0483c5b996b4a40facf046c8bfaec3a191a34a",
+      "bytes": 71434
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_many_features.csv",
+      "sha256": "72a3936487e0705bc0e669b10c289a92cf42106a57a964e55f8cae98f80f3f37",
+      "bytes": 137897
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_missing10.csv",
+      "sha256": "c06d154787dd873d950079b666d60f99528f4394761081b7553985f55c39c312",
+      "bytes": 65551
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_nonlinear_sine.csv",
+      "sha256": "67e4018ec786e2fa8c69282720f62122f852b61375f861b18f947e2156b4d6c0",
+      "bytes": 69589
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_outlier_contaminated.csv",
+      "sha256": "d122ef28bd8d3cd1153b09013d34f6852bbeadb67f9185625868d86798566012",
+      "bytes": 71541
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_quadratic_mix.csv",
+      "sha256": "dd1599e9fdf6c1cf45f1c69357f0db16a510fc6a42108cfd0996b35166266216",
+      "bytes": 71724
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_sparse_2.csv",
+      "sha256": "ef17c19e390c60441eaa0c8034a6a334e25b86baeace2260669f647daaaca05b",
+      "bytes": 71641
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_sparse_4.csv",
+      "sha256": "45e21dfb5d8dd9d84b74fad740e386155eba88403fdef6d148a7f748b2bc3f89",
+      "bytes": 71505
+    },
+    {
+      "path": "benchmarks/public_suite/datasets/regression_zero_inflated.csv",
+      "sha256": "a9bc1cf967b91f4d0a00088c9bd6a119cef73c0f18e1b96573f1481c44147db0",
+      "bytes": 35220
+    },
+    {
+      "path": "benchmarks/public_suite/generate_public_suite.py",
+      "sha256": "7cf5bf2d310ec442aa11cceb25db1a7754814dec976c659b3bf97575280d84cd",
+      "bytes": 20142
+    },
+    {
+      "path": "benchmarks/public_suite/manifest.json",
+      "sha256": "a65c3d72ab4295b4d3e1f902c4fad2d8f2bed2fd6e63eb7ad82fe6fa4fff0643",
+      "bytes": 49778
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_balanced_easy.json",
+      "sha256": "2ed33b344cfc2775458305ebe191b0031e40b68421334c49f57557fc91fe33c4",
+      "bytes": 14072
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_balanced_overlap.json",
+      "sha256": "4a4025485f2801d444566568dd605bcb6f0393d167a494cfc45cc2033c96028f",
+      "bytes": 14017
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_breast_cancer.json",
+      "sha256": "06c2060d833eb0f401770ec8766a6591b534677371ec28b45f63adff52a5cab3",
+      "bytes": 24110
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_circles.json",
+      "sha256": "d71157a857d13acc2a0b08d253a5be198d7c327de4c307ba42f89b6f32031079",
+      "bytes": 8664
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_clusters_1.json",
+      "sha256": "92975c00617a57f61a035b0cc32874c7d1305e38a406cce95c81383a44a4a6b3",
+      "bytes": 14076
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_clusters_3.json",
+      "sha256": "c91a0b3b4ceed2f3c201413bfb52dee1bd4d6d39c159c687b31c406275a25738",
+      "bytes": 14062
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_digits.json",
+      "sha256": "c9f434bf3ba5615ae390861f59e10ae4d74ca6ff951fe2de1edc02789a2898f8",
+      "bytes": 43838
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_heavy_tail.json",
+      "sha256": "7d02626884c496af77d2e7f7d1f90a508a319b6950915272e3eb1f42e99a7dc4",
+      "bytes": 14095
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_heterogeneous_scale.json",
+      "sha256": "51e1a1cff9544badf0272e6cc5eaad7a90c77fdfce45287b368305aa6adcd40a",
+      "bytes": 14014
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_imbalanced_90_10.json",
+      "sha256": "7af81c524f4b51e3c49723ae3528cb53dc86075c7b07996c9c8b4a87e86254dd",
+      "bytes": 14217
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_imbalanced_98_2.json",
+      "sha256": "1383f6931b33798757cc1a72db9a571147dac934f183526d25dd96d10bba3cb6",
+      "bytes": 14146
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_informative_dense.json",
+      "sha256": "ebe1f40b7a003bee37dab66836dadb22ab538ecda8b300c63b1867ab51e6e955",
+      "bytes": 14047
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_informative_sparse.json",
+      "sha256": "c2c6b20162087fc85c25e7e4372f1ac1ae3a386b279288cd3a3c392eda1a19d4",
+      "bytes": 14093
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_iris.json",
+      "sha256": "2e845b8c1546cde77865c5faeb966f3c258dc1b53ff4f43453662c9b10cab027",
+      "bytes": 10061
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_label_noise_10.json",
+      "sha256": "93931b9399632d99b08c26d03674d2f89c84805dbeddb42cf12cff2698cf2fe0",
+      "bytes": 14102
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_label_noise_20.json",
+      "sha256": "02feaabb7e518d1be942b6e3882bece4dcebb9e98d2d5c5c21033bb600c5999e",
+      "bytes": 14073
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_lognormal.json",
+      "sha256": "6836d5bae07178996a32c413e7075e0bf9770a94415d0484e68276856d3fde2d",
+      "bytes": 14052
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_missing10.json",
+      "sha256": "73b03163112f940daaddc4a6cff96d30b1c3edc5d7ce9d003708686685f4a95f",
+      "bytes": 14086
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_moons.json",
+      "sha256": "3adbf423b7194796511ed469651616c3ba79ce58ea000895ece0eda8b5261053",
+      "bytes": 8626
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_outlier_contaminated.json",
+      "sha256": "f4a792164904433b95b295de7494dc66f03b73b70212aad9a95187fbfac244e8",
+      "bytes": 14126
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_redundant_high.json",
+      "sha256": "d3f546d1145ad8c280066dfda89556cd1417c4fa5fa5157c272a84fe0d3158fa",
+      "bytes": 14142
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_wine.json",
+      "sha256": "f56fbfbf55d4f398f989d2d7369660944425818b12d8ee150db70e22d102ef2b",
+      "bytes": 14850
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_xor.json",
+      "sha256": "80ac2bce421ed65bf8e024077fd35dd69f0ab360813afa8adc7c57eb810d54ff",
+      "bytes": 11915
+    },
+    {
+      "path": "benchmarks/public_suite/models/classification_zero_inflated.json",
+      "sha256": "fe95812a2e0eb25de271305bbfbf6edcd984208706e286a8ec1f698ab3e6ef70",
+      "bytes": 13866
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_dense_10.json",
+      "sha256": "9af2bebea8584adfc07dca9915ce8a720793fffa0101d46e0eaa4a678d164955",
+      "bytes": 14117
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_diabetes.json",
+      "sha256": "eea06fcf009c3652cd2467c4a5574a371a63f9e98f51ec68a235adb27e49d5a8",
+      "bytes": 12928
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_few_features.json",
+      "sha256": "7b8dab6fff211890da807957f0767816f000547f332c904ef61880db07e7ee6c",
+      "bytes": 10199
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_heavy_tail.json",
+      "sha256": "9aa68a069568c964b1ecfabfaac926c6600cb70c15d9a92b86472423c2202fb0",
+      "bytes": 14122
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_heterogeneous_scale.json",
+      "sha256": "040d5b6cce7eb3a75ae7c416aadf01680c3fe7db72593cf5c03019086aa93815",
+      "bytes": 14087
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_heteroscedastic_noise.json",
+      "sha256": "21587d1013724891e64e73dfc53c71d7ce5f62289de39d964967e14ced0f49ce",
+      "bytes": 14049
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_high_noise.json",
+      "sha256": "faf1bcf498d7d99195c625090ee55a37cc1f453004e64efcbb05e5fb7b632622",
+      "bytes": 14060
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_interaction.json",
+      "sha256": "d078e9cfc367d7d0735193ef9a447134cf91a5f055fac5f015fe0f2e62a1da3f",
+      "bytes": 14083
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_linear_easy.json",
+      "sha256": "8b65db28dffba6baa8d3d78f3d691d666e3fee96dbcbcff4dcf4812a21811542",
+      "bytes": 14097
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_linear_noisy.json",
+      "sha256": "575793a0c15c1eb0b57552f1cde85698fe063eb3bea59cd31da7b0bbbc98a852",
+      "bytes": 14068
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_linnerud.json",
+      "sha256": "f2a7ed82ac4b91214869e330bdb348fdab72fddf4573a07d18053f7363b2e298",
+      "bytes": 9048
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_lognormal.json",
+      "sha256": "5f0f2842b6d1cdeaa7e31c00f9ae98e93eb2a23ee730a8a517d9c86c03cef3dc",
+      "bytes": 14034
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_low_noise.json",
+      "sha256": "d9a052b0bfc71e542254a222e16bc0598ff58f261644f272469ea0dbfdfd36ce",
+      "bytes": 14107
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_many_features.json",
+      "sha256": "6ae139874770f319ef9e69d46923698766beedc058bb78ae75f094c9dea81b4f",
+      "bytes": 20800
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_missing10.json",
+      "sha256": "9f02beb4ea2d1755fb5fb799034028cfd64e99db36100e2f092e33a519f38fdb",
+      "bytes": 14117
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_nonlinear_sine.json",
+      "sha256": "9d71f2f860557d7d313424997d08db9bf72f85989666c7b7c4891813a08a9761",
+      "bytes": 14041
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_outlier_contaminated.json",
+      "sha256": "668a5d6a5e7bbceaed1387cef0baffba1afcd65920bfb9ccab7758477f9ead36",
+      "bytes": 14023
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_quadratic_mix.json",
+      "sha256": "9f44c377344b29a365cad51e2daf6ae1f7ca353fcc46504d30085cff891dee15",
+      "bytes": 14088
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_sparse_2.json",
+      "sha256": "0361026335c69fb3de7fc550b4dc33e28395c32fe44f4bc943a5b0d5809a6e67",
+      "bytes": 14099
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_sparse_4.json",
+      "sha256": "0b74e994111dc53d974456be39cfa56735bea00d356e2e66c97229b0daa16760",
+      "bytes": 14116
+    },
+    {
+      "path": "benchmarks/public_suite/models/regression_zero_inflated.json",
+      "sha256": "d2a8aebbc79bc3acf6b22fc9002b00f67a772e554dcd27f8de398d85f9b5ed1a",
+      "bytes": 13869
+    },
+    {
+      "path": "benchmarks/public_suite/reference.py",
+      "sha256": "88250fdfbb7f9e8ac950cbca13aa3274a6b2f1d2ff1038b06a89941f537b5f7a",
+      "bytes": 4491
+    },
+    {
+      "path": "benchmarks/public_suite/results/benchmark_runs.csv",
+      "sha256": "64d9343dca0c07254ce33131cebf4ad35e2177ccf9421f9768d54b672e72c5a8",
+      "bytes": 37210
+    },
+    {
+      "path": "benchmarks/public_suite/results/controlled_role_recovery.csv",
+      "sha256": "d30899aac136fb069e5c2211a67f4ab597f6d346a36471e0bb212eca6675ad23",
+      "bytes": 2301
+    },
+    {
+      "path": "benchmarks/public_suite/results/fixed_model_bootstrap_stability.csv",
+      "sha256": "38af16d902f9da6d81369067d81d2146421d8d45ec79f2a8c3beb3e7e3d84472",
+      "bytes": 3395
+    },
+    {
+      "path": "benchmarks/public_suite/results/neuron_roles.csv",
+      "sha256": "77cb93de67e39b485ecc7943b68e6a3c8d610653c10262473e0cfd091f874d63",
+      "bytes": 1111160
+    },
+    {
+      "path": "benchmarks/public_suite/results/role_stability.csv",
+      "sha256": "fb64275dbe4ead48bdef181d28a110269d33ab7a3d0a8cad50e0a4bd52d07a89",
+      "bytes": 8909
+    },
+    {
+      "path": "benchmarks/public_suite/verify_public_suite.py",
+      "sha256": "95f1103ff06af73aaf8c6cf4221eeb4dd268d040c444110945014a6a74878279",
+      "bytes": 3232
+    }
+  ]
+}

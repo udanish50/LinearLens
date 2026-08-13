@@ -59,3 +59,13 @@ outputs/
 results/
 artifacts/
 checkpoints/
+
+# LINEAR-LENS-PUBLIC-EVIDENCE:START
+# Public deterministic verification artifacts are intentionally version-controlled.
+!benchmarks/
+!benchmarks/public_suite/
+!benchmarks/public_suite/datasets/
+!benchmarks/public_suite/datasets/*.csv
+!benchmarks/public_suite/results/
+!benchmarks/public_suite/results/*.csv
+# LINEAR-LENS-PUBLIC-EVIDENCE:END
